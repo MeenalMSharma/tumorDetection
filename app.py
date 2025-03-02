@@ -1,4 +1,9 @@
-from src import prediction_page,about,mail,home,pneumonia,blood_cancer,covid19,info
+from src.prediction_page import prediction_page
+from src.about import about
+from src.mail import mail
+from src.home import home
+from src.pneumonia import pneumonia
+from src.blood_cancer import blood_cancer
 import streamlit as st
 
 
